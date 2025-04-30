@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../certificates"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clone"
+	}
+}

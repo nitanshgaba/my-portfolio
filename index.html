@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitansh Gaba - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Nitansh Gaba</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Hello, I'm Nitansh Gaba">Hello, I'm Nitansh Gaba</h1>
+                <p class="subtitle">Professional Software Developer | Creating digital experiences that matter</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="certificates/cv-genric.pdf" target="_blank" class="btn secondary-btn">Download Resume</a>
+                </div>
+                <div class="social-buttons">
+                    <a href="https://github.com/nitanshgaba" class="social-btn"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nitansh-gaba/" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="image.png" alt="Nitansh Gaba" class="profile-image">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>My name is Nitansh Gaba, and I am currently pursuing a B.Tech in Computer Science from Lovely Professional University. I have a strong foundation in programming languages such as C, C++, Java, and JavaScript, and I have also worked with frameworks like React, Node.js, and Spring Boot. I have built projects like a real-time Chat App and developed the front-end of an e-commerce website called Forever. In addition to my technical skills, I bring key soft skills such as adaptability, problem-solving, teamwork, and project management—skills I have applied and strengthened through my academic projects and collaborative work.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Chat App</h3>
+                    <div class="project-tools">
+                        <span>React</span>
+                        <span>Spring Boot</span>
+                        <span>WebSocket</span>
+                        <span>Java</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JWT</span>
+                    </div>
+                    <p>Developed a real-time messaging app using React for the frontend and Spring Boot for the backend. Enabled user authentication, seamless message exchange, and dynamic updates through WebSocket integration.</p>
+                    <div class="project-role">Full Stack Developer</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Forever - Ecommerce Website</h3>
+                    <div class="project-tools">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>HTML</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <p>Built a responsive e-commerce platform for selling kids', women's, and men's clothing. Developed the frontend with React, emphasizing a smooth, interactive, and user-friendly shopping experience.</p>
+                    <div class="project-role">Frontend Developer</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Library Management System</h3>
+                    <div class="project-tools">
+                        <span>C++</span>
+                        <span>OOP</span>
+                        <span>Data Structures</span>
+                    </div>
+                    <p>Developed a C++-based system to efficiently manage a library's book inventory and borrowing process. Key features include adding, searching, issuing, returning, listing, and deleting books.</p>
+                    <div class="project-role">C++ Developer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend & Databases</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-header">
+            <h2>Education</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2022 - Present</span>
+                    <h3>Bachelor's Degree in Computer Science</h3>
+                    <p>Lovely Professional University</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2012 - 2022</span>
+                    <h3>Higher Secondary (Class 12)</h3>
+                    <p>Cambridge International School</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2019 - 2020</span>
+                    <h3>Secondary (Class 10)</h3>
+                    <p>Cambridge International School</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="section-header">
+            <h2>Certificates</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <div class="certificate-content">
+                    <h3>Ethical Hacking</h3>
+                    <p>NPTEL Online Certificate by IIT Kharagpur</p>
+                    <span class="certificate-date">July 2024 - Oct 2024</span>
+                    <a href="certificates/ethical-hacking.pdf" target="_blank" class="view-certificate">View Certificate</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-content">
+                    <h3>Data Structures and Algorithm using C++</h3>
+                    <p>Board Infinity</p>
+                    <span class="certificate-date">May 2024 - June 2024</span>
+                    <a href="certificates/dsa-cpp.pdf" target="_blank" class="view-certificate">View Certificate</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-content">
+                    <h3>Building Web Applications in PHP</h3>
+                    <p>Coursera</p>
+                    <span class="certificate-date">Aug 2024 - Oct 2024</span>
+                    <a href="certificates/php-web.pdf" target="_blank" class="view-certificate">View Certificate</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-content">
+                    <h3>HTML, CSS and JavaScript</h3>
+                    <p>Coursera</p>
+                    <span class="certificate-date">Sep 2023 - Nov 2023</span>
+                    <a href="certificates/web-dev.pdf" target="_blank" class="view-certificate">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>nitanshgaba1@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lovely Professional University, Punjab</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/nitanshgaba" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nitansh-gaba/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
